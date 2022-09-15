@@ -46,6 +46,7 @@ nav ul li a{
 }
 
 nav ul li a::before{
+    
     content:'';
     background: var(--decoration-color);
     position:absolute;
@@ -58,7 +59,9 @@ nav ul li a::before{
   }
   
   nav ul li a:hover::before{
+
    width: 100%;
+
   }
   
 
