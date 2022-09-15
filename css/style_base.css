@@ -76,6 +76,7 @@ nav ul li a::before{
     color:var(--secondary-color);
     background: var(--primary-color);
     padding: 10px 15px;
+    transition: .5s;
     text-decoration: none;
     /* transition: ; */
 }
@@ -88,6 +89,10 @@ nav ul li a::before{
 
 .social ul li a:hover{
     /* transform: ; */
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    background: #000;
 }
 
 
@@ -131,7 +136,3 @@ nav ul li a::before{
     border-left: 10px solid rgba(66,139,202,.2);
      /* animation: ; */
  }
- 
-/* keyframes    
-    crie a animação com a rotação do tempo 0 ao tempo 100
- */
