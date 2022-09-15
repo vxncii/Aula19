@@ -136,3 +136,16 @@ nav ul li a::before{
     border-left: 10px solid rgba(66,139,202,.2);
      /* animation: ; */
  }
+ 
+ @keyframes spinner{
+0%{
+    transform: rotate(0);
+}
+    100%{
+    transform:rotate(360deg);
+}    
+}
+ .spinner{
+    animation: spinner 0.5s linear infinite;
+ }
+ 
