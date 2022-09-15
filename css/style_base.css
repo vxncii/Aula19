@@ -58,7 +58,7 @@ nav ul li a::before{
   }
   
   nav ul li a:hover::before{
-   width: 100;
+   width: 100%;
   }
   
 
@@ -136,14 +136,18 @@ nav ul li a::before{
     border-right: 10px solid rgb(66,139,202);
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66,139,202,.2);
-    animation: rotate 1s linear infinite;
+     /* animation: ; */
  }
-
- @keyframes rotate{
-    from{
-        transform: rotateZ(0deg);
-    }
-    to{
-        transform: rotateZ(360deg);
-    }
+ 
+ @keyframes spinner{
+0%{
+    transform: rotate(0);
+}
+    100%{
+    transform:rotate(360deg);
+}    
+}
+ .spinner{
+    animation: spinner 0.5s linear infinite;
  }
+ 
